@@ -22,6 +22,7 @@ class CommentSmellProvider : DefaultRuleSetProvider {
                 ::DocumentationOverPrivateProperty,
                 ::DeprecatedBlockTag,
                 ::EndOfSentenceFormat,
+                ::ForbiddenDocumentation,
                 ::OutdatedDocumentation,
                 ::UndocumentedPublicClass,
                 ::UndocumentedPublicFunction,

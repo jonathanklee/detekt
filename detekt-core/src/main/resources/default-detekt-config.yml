@@ -28,6 +28,13 @@ comments:
   EndOfSentenceFormat:
     active: false
     endOfSentenceFormat: '([.?!][ \t\n\r\f<])|([.?!:]$)'
+  ForbiddenDocumentation:
+    active: false
+    visibilities:
+      - 'public'
+      - 'protected'
+      - 'internal'
+      - 'private'
   KDocReferencesNonPublicProperty:
     active: false
     excludes: ['**/test/**', '**/androidTest/**', '**/commonTest/**', '**/jvmTest/**', '**/androidUnitTest/**', '**/androidInstrumentedTest/**', '**/jsTest/**', '**/iosTest/**']
